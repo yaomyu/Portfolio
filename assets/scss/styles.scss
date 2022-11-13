@@ -321,9 +321,14 @@ img{
         row-gap: 2rem;
     }
     &__img{
-        box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); 
+        box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
         border-radius: .5rem;
         overflow: hidden;
+        height: auto; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
         
         & img{
             transition: 1s;
@@ -341,9 +346,39 @@ img{
         row-gap: 2rem;
     }
     &__img{
-        box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); 
+        box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
         border-radius: .5rem;
         overflow: hidden;
+        height: auto; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        
+        & img{
+            transition: 1s;
+
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+/* ===== certificate =====*/
+.certificate{
+    &__container{
+        row-gap: 2rem;
+    }
+    &__img{
+        box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+        border-radius: .5rem;
+        overflow: hidden;
+        height: auto; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
         
         & img{
             transition: 1s;
